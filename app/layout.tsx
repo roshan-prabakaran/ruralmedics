@@ -4,11 +4,10 @@ import { GeistMono } from 'geist/font/mono'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
-}
+export const metadata = {
+  title: "RuralMedics - Arogya Seva",
+  description: "Telemedicine and rural healthcare assistance platform",
+};
 
 export default function RootLayout({
   children,
